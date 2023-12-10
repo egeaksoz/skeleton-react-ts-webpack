@@ -39,9 +39,9 @@ module.exports = [
                     },
                 },
                 {
-                    test: /\.scss$/,
+                    test: /\.s[ac]ss$/,
                     exclude: /node_modules/,
-                    use: ['sass-loader', 'css-loader']
+                    use: ['style-loader','css-loader','sass-loader', ]
                 },
                 {
                     test: /\.(png|svg)$/i,
